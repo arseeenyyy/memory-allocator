@@ -1,0 +1,1 @@
+/sbin/clang -std=c17 -ggdb -g -Xlinker --dependency-file=CMakeFiles/test_try_merge_with_next.dir/link.d CMakeFiles/test_try_merge_with_next.dir/tests/try_merge_with_next.c.o CMakeFiles/test_stubs.dir/src/test_utils.c.o -o test_try_merge_with_next  ../src/libmemalloc.a

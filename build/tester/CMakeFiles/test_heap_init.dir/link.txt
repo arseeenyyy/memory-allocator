@@ -1,0 +1,1 @@
+/sbin/clang -std=c17 -ggdb -g -Xlinker --dependency-file=CMakeFiles/test_heap_init.dir/link.d CMakeFiles/test_heap_init.dir/tests/heap_init.c.o CMakeFiles/test_stubs.dir/src/test_utils.c.o -o test_heap_init  ../src/libmemalloc.a

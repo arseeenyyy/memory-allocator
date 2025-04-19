@@ -1,0 +1,355 @@
+Start testing: Dec 14 15:24 MSK
+----------------------------------------------------------
+1/10 Testing: test__free
+1/10 Test: test__free
+Command: "/home/meemo/Documents/langs/labs/lab4/build/tester/test__free"
+Directory: /home/meemo/Documents/langs/labs/lab4/build/tester
+"test__free" start time: Dec 14 15:24 MSK
+Output:
+----------------------------------------------------------
+ Run test "null"...
+ Run test group "next":
+  1. Run test "next_is_null"...
+  2. Run test "next_is_not_continuous"...
+  3. Run test "next_block_is_dirty"...
+ Run test "merge"...
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"test__free" end time: Dec 14 15:24 MSK
+"test__free" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/10 Testing: test_alloc_region
+2/10 Test: test_alloc_region
+Command: "/home/meemo/Documents/langs/labs/lab4/build/tester/test_alloc_region"
+Directory: /home/meemo/Documents/langs/labs/lab4/build/tester
+"test_alloc_region" start time: Dec 14 15:24 MSK
+Output:
+----------------------------------------------------------
+mmap(addr = 0x4040000, length = 8192, prot = PROT_READ | PROT_WRITE, flags = MAP_PRIVATE | MAP_ANONYMOUS | MAP_FIXED_NOREPLACE, fd = -1, offset = 0) -> ...
+mmap(...) -> 0x4040000
+mmap(addr = 0x4040000, length = 8192, prot = PROT_READ | PROT_WRITE, flags = MAP_PRIVATE | MAP_ANONYMOUS | MAP_FIXED_NOREPLACE, fd = -1, offset = 0) -> ...
+mmap(...) -> MAP_FAILED
+mmap(addr = 0x4040000, length = 8192, prot = PROT_READ | PROT_WRITE, flags = MAP_PRIVATE | MAP_ANONYMOUS, fd = -1, offset = 0) -> ...
+mmap(...) -> 0x7a9dba7f6000
+mmap(addr = 0x4040000, length = 8192, prot = PROT_READ | PROT_WRITE, flags = MAP_PRIVATE | MAP_ANONYMOUS | MAP_FIXED_NOREPLACE, fd = -1, offset = 0) -> ...
+mmap(...) -> MAP_FAILED
+mmap(addr = 0x4040000, length = 8192, prot = PROT_READ | PROT_WRITE, flags = MAP_PRIVATE | MAP_ANONYMOUS, fd = -1, offset = 0) -> ...
+mmap(...) -> MAP_FAILED
+mmap(addr = 0x4040000, length = 8192, prot = PROT_READ | PROT_WRITE, flags = MAP_PRIVATE | MAP_ANONYMOUS | MAP_FIXED_NOREPLACE, fd = -1, offset = 0) -> ...
+mmap(...) -> MAP_FAILED
+mmap(addr = 0x4040000, length = 8192, prot = PROT_READ | PROT_WRITE, flags = MAP_PRIVATE | MAP_ANONYMOUS, fd = -1, offset = 0) -> ...
+mmap(...) -> MAP_FAILED
+mmap(addr = 0x4040000, length = 8192, prot = PROT_READ | PROT_WRITE, flags = MAP_PRIVATE | MAP_ANONYMOUS | MAP_FIXED_NOREPLACE, fd = -1, offset = 0) -> ...
+mmap(...) -> MAP_FAILED
+mmap(addr = 0x4040000, length = 8192, prot = PROT_READ | PROT_WRITE, flags = MAP_PRIVATE | MAP_ANONYMOUS, fd = -1, offset = 0) -> ...
+mmap(...) -> MAP_FAILED
+mmap(addr = 0x4040000, length = 12288, prot = PROT_READ | PROT_WRITE, flags = MAP_PRIVATE | MAP_ANONYMOUS | MAP_FIXED_NOREPLACE, fd = -1, offset = 0) -> ...
+mmap(...) -> 0x4040000
+ Run test "optimistic_case"...
+ Run test "map_fixed_failed"...
+ Run test "pessimistic_case"...
+ Run test group "query":
+  1. Run test "query_is_zero"...
+  2. Run test "query_is_small"...
+  3. Run test "query_is_min_region_size"...
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"test_alloc_region" end time: Dec 14 15:24 MSK
+"test_alloc_region" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/10 Testing: test_find_good_or_last
+3/10 Test: test_find_good_or_last
+Command: "/home/meemo/Documents/langs/labs/lab4/build/tester/test_find_good_or_last"
+Directory: /home/meemo/Documents/langs/labs/lab4/build/tester
+"test_find_good_or_last" start time: Dec 14 15:24 MSK
+Output:
+----------------------------------------------------------
+ Run test group "single_block":
+  1. Run test "single_block_is_good"...
+  2. Run test "single_block_is_dirty"...
+  3. Run test "single_block_is_small"...
+ Run test group "multiple_blocks":
+  1. Run test "multiple_blocks_fail"...
+  2. Run test "multiple_blocks_success"...
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"test_find_good_or_last" end time: Dec 14 15:24 MSK
+"test_find_good_or_last" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/10 Testing: test_grow_heap
+4/10 Test: test_grow_heap
+Command: "/home/meemo/Documents/langs/labs/lab4/build/tester/test_grow_heap"
+Directory: /home/meemo/Documents/langs/labs/lab4/build/tester
+"test_grow_heap" start time: Dec 14 15:24 MSK
+Output:
+----------------------------------------------------------
+mmap(addr = 0x5a615de9f480, length = 8192, prot = PROT_READ | PROT_WRITE, flags = MAP_PRIVATE | MAP_ANONYMOUS | MAP_FIXED_NOREPLACE, fd = -1, offset = 0) -> ...
+mmap(...) -> MAP_FAILED
+mmap(addr = 0x5a615de9f480, length = 8192, prot = PROT_READ | PROT_WRITE, flags = MAP_PRIVATE | MAP_ANONYMOUS, fd = -1, offset = 0) -> ...
+mmap(...) -> MAP_FAILED
+mmap(addr = 0x5a615de9f280, length = 8192, prot = PROT_READ | PROT_WRITE, flags = MAP_PRIVATE | MAP_ANONYMOUS | MAP_FIXED_NOREPLACE, fd = -1, offset = 0) -> ...
+mmap(...) -> MAP_FAILED
+mmap(addr = 0x5a615de9f280, length = 8192, prot = PROT_READ | PROT_WRITE, flags = MAP_PRIVATE | MAP_ANONYMOUS, fd = -1, offset = 0) -> ...
+mmap(...) -> 0x5a615de9f480
+mmap(addr = 0x5a615de9f480, length = 8192, prot = PROT_READ | PROT_WRITE, flags = MAP_PRIVATE | MAP_ANONYMOUS | MAP_FIXED_NOREPLACE, fd = -1, offset = 0) -> ...
+mmap(...) -> 0x5a615de9f480
+mmap(addr = 0x5a615de9f480, length = 8192, prot = PROT_READ | PROT_WRITE, flags = MAP_PRIVATE | MAP_ANONYMOUS | MAP_FIXED_NOREPLACE, fd = -1, offset = 0) -> ...
+mmap(...) -> 0x5a615de9f480
+ Run test "mmap_failed"...
+ Run test "mmap_fixed_failed"...
+ Run test group "mmap_success":
+  1. Run test "mmap_success_last_dirty"...
+  2. Run test "mmap_success_last_free"...
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"test_grow_heap" end time: Dec 14 15:24 MSK
+"test_grow_heap" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/10 Testing: test_heap_init
+5/10 Test: test_heap_init
+Command: "/home/meemo/Documents/langs/labs/lab4/build/tester/test_heap_init"
+Directory: /home/meemo/Documents/langs/labs/lab4/build/tester
+"test_heap_init" start time: Dec 14 15:24 MSK
+Output:
+----------------------------------------------------------
+heap_init(0)
+mmap(addr = 0x4040000, length = 8192, prot = PROT_READ | PROT_WRITE, flags = MAP_PRIVATE | MAP_ANONYMOUS | MAP_FIXED_NOREPLACE, fd = -1, offset = 0) -> ...
+mmap(...) -> MAP_FAILED
+mmap(addr = 0x4040000, length = 8192, prot = PROT_READ | PROT_WRITE, flags = MAP_PRIVATE | MAP_ANONYMOUS, fd = -1, offset = 0) -> ...
+mmap(...) -> MAP_FAILED
+heap_init(10)
+mmap(addr = 0x4040000, length = 8192, prot = PROT_READ | PROT_WRITE, flags = MAP_PRIVATE | MAP_ANONYMOUS | MAP_FIXED_NOREPLACE, fd = -1, offset = 0) -> ...
+mmap(...) -> MAP_FAILED
+mmap(addr = 0x4040000, length = 8192, prot = PROT_READ | PROT_WRITE, flags = MAP_PRIVATE | MAP_ANONYMOUS, fd = -1, offset = 0) -> ...
+mmap(...) -> MAP_FAILED
+heap_init(24)
+mmap(addr = 0x4040000, length = 8192, prot = PROT_READ | PROT_WRITE, flags = MAP_PRIVATE | MAP_ANONYMOUS | MAP_FIXED_NOREPLACE, fd = -1, offset = 0) -> ...
+mmap(...) -> MAP_FAILED
+mmap(addr = 0x4040000, length = 8192, prot = PROT_READ | PROT_WRITE, flags = MAP_PRIVATE | MAP_ANONYMOUS, fd = -1, offset = 0) -> ...
+mmap(...) -> MAP_FAILED
+heap_init(41)
+mmap(addr = 0x4040000, length = 8192, prot = PROT_READ | PROT_WRITE, flags = MAP_PRIVATE | MAP_ANONYMOUS | MAP_FIXED_NOREPLACE, fd = -1, offset = 0) -> ...
+mmap(...) -> MAP_FAILED
+mmap(addr = 0x4040000, length = 8192, prot = PROT_READ | PROT_WRITE, flags = MAP_PRIVATE | MAP_ANONYMOUS, fd = -1, offset = 0) -> ...
+mmap(...) -> MAP_FAILED
+heap_init(8175)
+mmap(addr = 0x4040000, length = 8192, prot = PROT_READ | PROT_WRITE, flags = MAP_PRIVATE | MAP_ANONYMOUS | MAP_FIXED_NOREPLACE, fd = -1, offset = 0) -> ...
+mmap(...) -> MAP_FAILED
+mmap(addr = 0x4040000, length = 8192, prot = PROT_READ | PROT_WRITE, flags = MAP_PRIVATE | MAP_ANONYMOUS, fd = -1, offset = 0) -> ...
+mmap(...) -> MAP_FAILED
+heap_init(8192)
+mmap(addr = 0x4040000, length = 12288, prot = PROT_READ | PROT_WRITE, flags = MAP_PRIVATE | MAP_ANONYMOUS | MAP_FIXED_NOREPLACE, fd = -1, offset = 0) -> ...
+mmap(...) -> MAP_FAILED
+mmap(addr = 0x4040000, length = 12288, prot = PROT_READ | PROT_WRITE, flags = MAP_PRIVATE | MAP_ANONYMOUS, fd = -1, offset = 0) -> ...
+mmap(...) -> MAP_FAILED
+heap_init(0)
+mmap(addr = 0x4040000, length = 8192, prot = PROT_READ | PROT_WRITE, flags = MAP_PRIVATE | MAP_ANONYMOUS | MAP_FIXED_NOREPLACE, fd = -1, offset = 0) -> ...
+mmap(...) -> 0x4040000
+heap_init(10)
+mmap(addr = 0x4040000, length = 8192, prot = PROT_READ | PROT_WRITE, flags = MAP_PRIVATE | MAP_ANONYMOUS | MAP_FIXED_NOREPLACE, fd = -1, offset = 0) -> ...
+mmap(...) -> 0x4040000
+heap_init(24)
+mmap(addr = 0x4040000, length = 8192, prot = PROT_READ | PROT_WRITE, flags = MAP_PRIVATE | MAP_ANONYMOUS | MAP_FIXED_NOREPLACE, fd = -1, offset = 0) -> ...
+mmap(...) -> 0x4040000
+heap_init(41)
+mmap(addr = 0x4040000, length = 8192, prot = PROT_READ | PROT_WRITE, flags = MAP_PRIVATE | MAP_ANONYMOUS | MAP_FIXED_NOREPLACE, fd = -1, offset = 0) -> ...
+mmap(...) -> 0x4040000
+heap_init(8175)
+mmap(addr = 0x4040000, length = 8192, prot = PROT_READ | PROT_WRITE, flags = MAP_PRIVATE | MAP_ANONYMOUS | MAP_FIXED_NOREPLACE, fd = -1, offset = 0) -> ...
+mmap(...) -> 0x4040000
+heap_init(8192)
+mmap(addr = 0x4040000, length = 12288, prot = PROT_READ | PROT_WRITE, flags = MAP_PRIVATE | MAP_ANONYMOUS | MAP_FIXED_NOREPLACE, fd = -1, offset = 0) -> ...
+mmap(...) -> 0x4040000
+ Run test "fail"...
+ Run test "success"...
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"test_heap_init" end time: Dec 14 15:24 MSK
+"test_heap_init" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/10 Testing: test_heap_term
+6/10 Test: test_heap_term
+Command: "/home/meemo/Documents/langs/labs/lab4/build/tester/test_heap_term"
+Directory: /home/meemo/Documents/langs/labs/lab4/build/tester
+"test_heap_term" start time: Dec 14 15:24 MSK
+Output:
+----------------------------------------------------------
+Intial maps:
+56a043d18000-56a043d19000 r--p 00000000 103:04 5381834                   /home/meemo/Documents/langs/labs/lab4/build/tester/test_heap_term
+56a043d19000-56a043d1b000 r-xp 00001000 103:04 5381834                   /home/meemo/Documents/langs/labs/lab4/build/tester/test_heap_term
+56a043d1b000-56a043d1c000 r--p 00003000 103:04 5381834                   /home/meemo/Documents/langs/labs/lab4/build/tester/test_heap_term
+56a043d1c000-56a043d1d000 r--p 00003000 103:04 5381834                   /home/meemo/Documents/langs/labs/lab4/build/tester/test_heap_term
+56a043d1d000-56a043d1e000 rw-p 00004000 103:04 5381834                   /home/meemo/Documents/langs/labs/lab4/build/tester/test_heap_term
+56a072f70000-56a072f91000 rw-p 00000000 00:00 0                          [heap]
+772bd466d000-772bd4670000 rw-p 00000000 00:00 0 
+772bd4670000-772bd4694000 r--p 00000000 103:03 2231619                   /usr/lib/libc.so.6
+772bd4694000-772bd4805000 r-xp 00024000 103:03 2231619                   /usr/lib/libc.so.6
+772bd4805000-772bd4853000 r--p 00195000 103:03 2231619                   /usr/lib/libc.so.6
+772bd4853000-772bd4857000 r--p 001e3000 103:03 2231619                   /usr/lib/libc.so.6
+772bd4857000-772bd4859000 rw-p 001e7000 103:03 2231619                   /usr/lib/libc.so.6
+772bd4859000-772bd4863000 rw-p 00000000 00:00 0 
+772bd487f000-772bd4883000 r--p 00000000 00:00 0                          [vvar]
+772bd4883000-772bd4885000 r-xp 00000000 00:00 0                          [vdso]
+772bd4885000-772bd4886000 r--p 00000000 103:03 2231610                   /usr/lib/ld-linux-x86-64.so.2
+772bd4886000-772bd48af000 r-xp 00001000 103:03 2231610                   /usr/lib/ld-linux-x86-64.so.2
+772bd48af000-772bd48b9000 r--p 0002a000 103:03 2231610                   /usr/lib/ld-linux-x86-64.so.2
+772bd48b9000-772bd48bb000 r--p 00034000 103:03 2231610                   /usr/lib/ld-linux-x86-64.so.2
+772bd48bb000-772bd48bd000 rw-p 00036000 103:03 2231610                   /usr/lib/ld-linux-x86-64.so.2
+7ffd19121000-7ffd19142000 rw-p 00000000 00:00 0                          [stack]
+ffffffffff600000-ffffffffff601000 --xp 00000000 00:00 0                  [vsyscall]
+
+mmap(addr = 0x4040000, length = 8192, prot = PROT_READ | PROT_WRITE, flags = MAP_PRIVATE | MAP_ANONYMOUS | MAP_FIXED_NOREPLACE, fd = -1, offset = 0) -> ...
+mmap(...) -> 0x4040000
+mmap(addr = 0x4042000, length = 8192, prot = PROT_READ | PROT_WRITE, flags = MAP_PRIVATE | MAP_ANONYMOUS | MAP_FIXED_NOREPLACE, fd = -1, offset = 0) -> ...
+mmap(...) -> MAP_FAILED
+mmap(addr = 0x4042000, length = 8192, prot = PROT_READ | PROT_WRITE, flags = MAP_PRIVATE | MAP_ANONYMOUS, fd = -1, offset = 0) -> ...
+mmap(...) -> 0x772bd487d000
+Final maps:
+56a043d18000-56a043d19000 r--p 00000000 103:04 5381834                   /home/meemo/Documents/langs/labs/lab4/build/tester/test_heap_term
+56a043d19000-56a043d1b000 r-xp 00001000 103:04 5381834                   /home/meemo/Documents/langs/labs/lab4/build/tester/test_heap_term
+56a043d1b000-56a043d1c000 r--p 00003000 103:04 5381834                   /home/meemo/Documents/langs/labs/lab4/build/tester/test_heap_term
+56a043d1c000-56a043d1d000 r--p 00003000 103:04 5381834                   /home/meemo/Documents/langs/labs/lab4/build/tester/test_heap_term
+56a043d1d000-56a043d1e000 rw-p 00004000 103:04 5381834                   /home/meemo/Documents/langs/labs/lab4/build/tester/test_heap_term
+56a072f70000-56a072f91000 rw-p 00000000 00:00 0                          [heap]
+772bd466d000-772bd4670000 rw-p 00000000 00:00 0 
+772bd4670000-772bd4694000 r--p 00000000 103:03 2231619                   /usr/lib/libc.so.6
+772bd4694000-772bd4805000 r-xp 00024000 103:03 2231619                   /usr/lib/libc.so.6
+772bd4805000-772bd4853000 r--p 00195000 103:03 2231619                   /usr/lib/libc.so.6
+772bd4853000-772bd4857000 r--p 001e3000 103:03 2231619                   /usr/lib/libc.so.6
+772bd4857000-772bd4859000 rw-p 001e7000 103:03 2231619                   /usr/lib/libc.so.6
+772bd4859000-772bd4863000 rw-p 00000000 00:00 0 
+772bd487f000-772bd4883000 r--p 00000000 00:00 0                          [vvar]
+772bd4883000-772bd4885000 r-xp 00000000 00:00 0                          [vdso]
+772bd4885000-772bd4886000 r--p 00000000 103:03 2231610                   /usr/lib/ld-linux-x86-64.so.2
+772bd4886000-772bd48af000 r-xp 00001000 103:03 2231610                   /usr/lib/ld-linux-x86-64.so.2
+772bd48af000-772bd48b9000 r--p 0002a000 103:03 2231610                   /usr/lib/ld-linux-x86-64.so.2
+772bd48b9000-772bd48bb000 r--p 00034000 103:03 2231610                   /usr/lib/ld-linux-x86-64.so.2
+772bd48bb000-772bd48bd000 rw-p 00036000 103:03 2231610                   /usr/lib/ld-linux-x86-64.so.2
+7ffd19121000-7ffd19142000 rw-p 00000000 00:00 0                          [stack]
+ffffffffff600000-ffffffffff601000 --xp 00000000 00:00 0                  [vsyscall]
+
+ Run test "term"...
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"test_heap_term" end time: Dec 14 15:24 MSK
+"test_heap_term" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/10 Testing: test_memalloc
+7/10 Test: test_memalloc
+Command: "/home/meemo/Documents/langs/labs/lab4/build/tester/test_memalloc"
+Directory: /home/meemo/Documents/langs/labs/lab4/build/tester
+"test_memalloc" start time: Dec 14 15:24 MSK
+Output:
+----------------------------------------------------------
+mmap(addr = 0x645914522490, length = 12288, prot = PROT_READ | PROT_WRITE, flags = MAP_PRIVATE | MAP_ANONYMOUS | MAP_FIXED_NOREPLACE, fd = -1, offset = 0) -> ...
+mmap(...) -> MAP_FAILED
+mmap(addr = 0x645914522490, length = 12288, prot = PROT_READ | PROT_WRITE, flags = MAP_PRIVATE | MAP_ANONYMOUS, fd = -1, offset = 0) -> ...
+mmap(...) -> MAP_FAILED
+mmap(addr = 0x645914522490, length = 8192, prot = PROT_READ | PROT_WRITE, flags = MAP_PRIVATE | MAP_ANONYMOUS | MAP_FIXED_NOREPLACE, fd = -1, offset = 0) -> ...
+mmap(...) -> MAP_FAILED
+mmap(addr = 0x645914522490, length = 8192, prot = PROT_READ | PROT_WRITE, flags = MAP_PRIVATE | MAP_ANONYMOUS, fd = -1, offset = 0) -> ...
+mmap(...) -> MAP_FAILED
+mmap(addr = 0x645914522490, length = 8192, prot = PROT_READ | PROT_WRITE, flags = MAP_PRIVATE | MAP_ANONYMOUS | MAP_FIXED_NOREPLACE, fd = -1, offset = 0) -> ...
+mmap(...) -> MAP_FAILED
+mmap(addr = 0x645914522490, length = 8192, prot = PROT_READ | PROT_WRITE, flags = MAP_PRIVATE | MAP_ANONYMOUS, fd = -1, offset = 0) -> ...
+mmap(...) -> 0x6459145224a0
+mmap(addr = 0x645914522490, length = 8192, prot = PROT_READ | PROT_WRITE, flags = MAP_PRIVATE | MAP_ANONYMOUS | MAP_FIXED_NOREPLACE, fd = -1, offset = 0) -> ...
+mmap(...) -> MAP_FAILED
+mmap(addr = 0x645914522490, length = 8192, prot = PROT_READ | PROT_WRITE, flags = MAP_PRIVATE | MAP_ANONYMOUS, fd = -1, offset = 0) -> ...
+mmap(...) -> 0x6459145224a0
+ Run test group "memalloc_existing":
+  1. Run test "memalloc_existing_big_query"...
+  2. Run test "memalloc_existing_small_query"...
+ Run test group "grow_heap_fail":
+  1. Run test "grow_heap_fail_big_query"...
+  2. Run test "grow_heap_fail_small_query"...
+ Run test group "grow_heap_success":
+  1. Run test "grow_heap_success_big_query"...
+  2. Run test "grow_heap_success_small_query"...
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"test_memalloc" end time: Dec 14 15:24 MSK
+"test_memalloc" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/10 Testing: test_split_if_too_big
+8/10 Test: test_split_if_too_big
+Command: "/home/meemo/Documents/langs/labs/lab4/build/tester/test_split_if_too_big"
+Directory: /home/meemo/Documents/langs/labs/lab4/build/tester
+"test_split_if_too_big" start time: Dec 14 15:24 MSK
+Output:
+----------------------------------------------------------
+ Run test group "not_splittable":
+  1. Run test "not_free"...
+  2. Run test "not_big_enough"...
+  3. Run test "not_big_enough_for_min_capacity"...
+ Run test "success"...
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"test_split_if_too_big" end time: Dec 14 15:24 MSK
+"test_split_if_too_big" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/10 Testing: test_try_memalloc_existing
+9/10 Test: test_try_memalloc_existing
+Command: "/home/meemo/Documents/langs/labs/lab4/build/tester/test_try_memalloc_existing"
+Directory: /home/meemo/Documents/langs/labs/lab4/build/tester
+"test_try_memalloc_existing" start time: Dec 14 15:24 MSK
+Output:
+----------------------------------------------------------
+ Run test "fail"...
+ Run test "split"...
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"test_try_memalloc_existing" end time: Dec 14 15:24 MSK
+"test_try_memalloc_existing" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/10 Testing: test_try_merge_with_next
+10/10 Test: test_try_merge_with_next
+Command: "/home/meemo/Documents/langs/labs/lab4/build/tester/test_try_merge_with_next"
+Directory: /home/meemo/Documents/langs/labs/lab4/build/tester
+"test_try_merge_with_next" start time: Dec 14 15:24 MSK
+Output:
+----------------------------------------------------------
+ Run test group "next":
+  1. Run test "next_is_null"...
+  2. Run test "next_is_not_continuous"...
+ Run test group "dirtiness":
+  1. Run test "block_is_dirty"...
+  2. Run test "next_block_is_dirty"...
+  3. Run test "both_blocks_are_dirty"...
+ Run test "success"...
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"test_try_merge_with_next" end time: Dec 14 15:24 MSK
+"test_try_merge_with_next" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Dec 14 15:24 MSK

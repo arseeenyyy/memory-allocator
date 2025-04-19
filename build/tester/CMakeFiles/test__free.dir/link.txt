@@ -1,0 +1,1 @@
+/sbin/clang -std=c17 -ggdb -g -Xlinker --dependency-file=CMakeFiles/test__free.dir/link.d CMakeFiles/test__free.dir/tests/_free.c.o CMakeFiles/test_stubs.dir/src/test_utils.c.o -o test__free  ../src/libmemalloc.a

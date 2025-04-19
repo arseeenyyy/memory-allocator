@@ -1,0 +1,1 @@
+/sbin/clang -std=c17 -ggdb -g -Xlinker --dependency-file=CMakeFiles/test_grow_heap.dir/link.d CMakeFiles/test_grow_heap.dir/tests/grow_heap.c.o CMakeFiles/test_stubs.dir/src/test_utils.c.o -o test_grow_heap  ../src/libmemalloc.a

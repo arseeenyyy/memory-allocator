@@ -1,0 +1,1 @@
+/sbin/clang -std=c17 -ggdb -g -Xlinker --dependency-file=CMakeFiles/test_try_memalloc_existing.dir/link.d CMakeFiles/test_try_memalloc_existing.dir/tests/try_memalloc_existing.c.o CMakeFiles/test_stubs.dir/src/test_utils.c.o -o test_try_memalloc_existing  ../src/libmemalloc.a

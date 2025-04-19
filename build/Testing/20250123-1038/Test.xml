@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="(empty)"
+	BuildStamp="20250123-1038-Experimental"
+	Name="(empty)"
+	Generator="ctest-3.31.4"
+	CompilerName=""
+	CompilerVersion=""
+	OSName="Linux"
+	Hostname="devpc"
+	OSRelease="6.12.10-arch1-1"
+	OSVersion="#1 SMP PREEMPT_DYNAMIC Sat, 18 Jan 2025 02:26:57 +0000"
+	OSPlatform="x86_64"
+	Is64Bits="1"
+	VendorString="AuthenticAMD"
+	VendorID="Advanced Micro Devices"
+	FamilyID="25"
+	ModelID="80"
+	ModelName="AMD Ryzen 7 5800H with Radeon Graphics"
+	ProcessorCacheSize="512"
+	NumberOfLogicalCPU="16"
+	NumberOfPhysicalCPU="8"
+	TotalVirtualMemory="17407"
+	TotalPhysicalMemory="15337"
+	LogicalProcessorsPerPhysical="2"
+	ProcessorClockFrequency="3335.84"
+	>
+	<Testing>
+		<StartDateTime>Jan 23 14:32 MSK</StartDateTime>
+		<StartTestTime>1737631935</StartTestTime>
+		<TestList/>
+		<EndDateTime>Jan 23 14:32 MSK</EndDateTime>
+		<EndTestTime>1737631935</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

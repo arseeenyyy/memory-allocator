@@ -1,0 +1,2 @@
+/sbin/ar qc libmemalloc.a CMakeFiles/memalloc.dir/mem.c.o CMakeFiles/memalloc.dir/mem_debug.c.o CMakeFiles/memalloc.dir/tests.c.o CMakeFiles/memalloc.dir/util.c.o CMakeFiles/memalloc.dir/main.c.o
+/sbin/ranlib libmemalloc.a

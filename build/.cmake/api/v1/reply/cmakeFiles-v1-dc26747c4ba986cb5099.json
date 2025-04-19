@@ -1,0 +1,218 @@
+{
+	"globsDependent" : 
+	[
+		{
+			"expression" : "/home/meemo/Documents/langs/labs/lab4/assignment-4-memory-allocator/src/*.c",
+			"paths" : 
+			[
+				"/home/meemo/Documents/langs/labs/lab4/assignment-4-memory-allocator/src/main.c",
+				"/home/meemo/Documents/langs/labs/lab4/assignment-4-memory-allocator/src/mem.c",
+				"/home/meemo/Documents/langs/labs/lab4/assignment-4-memory-allocator/src/mem_debug.c",
+				"/home/meemo/Documents/langs/labs/lab4/assignment-4-memory-allocator/src/tests.c",
+				"/home/meemo/Documents/langs/labs/lab4/assignment-4-memory-allocator/src/util.c"
+			],
+			"recurse" : true
+		},
+		{
+			"expression" : "/home/meemo/Documents/langs/labs/lab4/assignment-4-memory-allocator/src/*.h",
+			"paths" : 
+			[
+				"/home/meemo/Documents/langs/labs/lab4/assignment-4-memory-allocator/src/mem.h",
+				"/home/meemo/Documents/langs/labs/lab4/assignment-4-memory-allocator/src/mem_internals.h",
+				"/home/meemo/Documents/langs/labs/lab4/assignment-4-memory-allocator/src/tests.h",
+				"/home/meemo/Documents/langs/labs/lab4/assignment-4-memory-allocator/src/util.h"
+			],
+			"recurse" : true
+		},
+		{
+			"expression" : "/home/meemo/Documents/langs/labs/lab4/assignment-4-memory-allocator/tester/src/*.c",
+			"paths" : 
+			[
+				"/home/meemo/Documents/langs/labs/lab4/assignment-4-memory-allocator/tester/src/test_utils.c"
+			],
+			"recurse" : true
+		},
+		{
+			"expression" : "/home/meemo/Documents/langs/labs/lab4/assignment-4-memory-allocator/tester/src/*.h",
+			"paths" : 
+			[
+				"/home/meemo/Documents/langs/labs/lab4/assignment-4-memory-allocator/tester/src/test.h",
+				"/home/meemo/Documents/langs/labs/lab4/assignment-4-memory-allocator/tester/src/test_utils.h"
+			],
+			"recurse" : true
+		},
+		{
+			"expression" : "/home/meemo/Documents/langs/labs/lab4/assignment-4-memory-allocator/tester/tests/*.c",
+			"paths" : 
+			[
+				"/home/meemo/Documents/langs/labs/lab4/assignment-4-memory-allocator/tester/tests/_free.c",
+				"/home/meemo/Documents/langs/labs/lab4/assignment-4-memory-allocator/tester/tests/alloc_region.c",
+				"/home/meemo/Documents/langs/labs/lab4/assignment-4-memory-allocator/tester/tests/find_good_or_last.c",
+				"/home/meemo/Documents/langs/labs/lab4/assignment-4-memory-allocator/tester/tests/grow_heap.c",
+				"/home/meemo/Documents/langs/labs/lab4/assignment-4-memory-allocator/tester/tests/heap_init.c",
+				"/home/meemo/Documents/langs/labs/lab4/assignment-4-memory-allocator/tester/tests/heap_term.c",
+				"/home/meemo/Documents/langs/labs/lab4/assignment-4-memory-allocator/tester/tests/memalloc.c",
+				"/home/meemo/Documents/langs/labs/lab4/assignment-4-memory-allocator/tester/tests/split_if_too_big.c",
+				"/home/meemo/Documents/langs/labs/lab4/assignment-4-memory-allocator/tester/tests/try_memalloc_existing.c",
+				"/home/meemo/Documents/langs/labs/lab4/assignment-4-memory-allocator/tester/tests/try_merge_with_next.c"
+			],
+			"recurse" : true
+		}
+	],
+	"inputs" : 
+	[
+		{
+			"path" : "CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "/home/meemo/Documents/langs/labs/lab4/build/CMakeFiles/3.31.4/CMakeSystem.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Platform/Linux-Initialize.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "/home/meemo/Documents/langs/labs/lab4/build/CMakeFiles/3.31.4/CMakeCCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/CMakeSystemSpecificInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/CMakeGenericSystem.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/CMakeInitializeConfigs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Platform/Linux.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Platform/UnixPaths.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/CMakeCInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/CMakeLanguageInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Compiler/Clang-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Compiler/Clang.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Compiler/GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Platform/Linux-Clang-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Platform/Linux-GNU-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Platform/Linux-GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Internal/CMakeCLinkerInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Internal/CMakeCommonLinkerInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Linker/GNU-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Linker/GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Platform/Linker/Linux-GNU-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Platform/Linker/Linux-GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake/Modules/Platform/Linker/GNU.cmake"
+		},
+		{
+			"path" : "src/CMakeLists.txt"
+		},
+		{
+			"path" : "tester/CMakeLists.txt"
+		}
+	],
+	"kind" : "cmakeFiles",
+	"paths" : 
+	{
+		"build" : "/home/meemo/Documents/langs/labs/lab4/build",
+		"source" : "/home/meemo/Documents/langs/labs/lab4/assignment-4-memory-allocator"
+	},
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 1
+	}
+}

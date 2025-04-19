@@ -1,0 +1,1 @@
+/sbin/clang -std=c17 -ggdb -g -Xlinker --dependency-file=CMakeFiles/test_find_good_or_last.dir/link.d CMakeFiles/test_find_good_or_last.dir/tests/find_good_or_last.c.o CMakeFiles/test_stubs.dir/src/test_utils.c.o -o test_find_good_or_last  ../src/libmemalloc.a

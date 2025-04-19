@@ -1,0 +1,1 @@
+/sbin/clang -std=c17 -ggdb -g -Xlinker --dependency-file=CMakeFiles/test_split_if_too_big.dir/link.d CMakeFiles/test_split_if_too_big.dir/tests/split_if_too_big.c.o CMakeFiles/test_stubs.dir/src/test_utils.c.o -o test_split_if_too_big  ../src/libmemalloc.a
